@@ -1,0 +1,28 @@
+POST http://localhost:4002/products
+content-type: application/json
+
+{
+   "name": "cama casal 2sdsa",
+   "price": 800
+}
+
+###
+
+GET http://localhost:4002/products
+
+###
+GET http://localhost:4002/products/e7d2c26d-11ee-4e24-b040-906b141077e1
+
+###
+
+PUT http://localhost:4002/products/de07b91f-c4d3-4eca-940a-f79451c9fb9c
+content-type: application/json
+
+{
+   "name": "cama solteiro",
+   "price": 450
+}
+
+####
+
+DELETE http://localhost:4002/products/de07b91f-c4d3-4eca-940a-f79451c9fb9c
