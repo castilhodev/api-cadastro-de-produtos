@@ -73,5 +73,4 @@ function productFile() {
       }
    });
 }
-
 app.listen(4002, () => console.log("Sevidor está rodando na porta 4002!"));

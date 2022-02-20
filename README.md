@@ -1,0 +1,1 @@
+Uma API simples de cadastro de produtos utilizando os métodos htpp(get,put,delete e post) e salvando os dados em um arquivo json simulando um banco de dados.
